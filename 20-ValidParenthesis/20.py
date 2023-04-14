@@ -15,5 +15,4 @@ class Solution:
                 if char != pairs[stack[-1]]:
                     return False
                 stack.pop()
-        return True if len(stack) == 0 else False
-            
+        return True if len(stack) == 0 else False    
